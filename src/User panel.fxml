@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="529.0" prefWidth="766.0" styleClass="bkground" stylesheets="@Userpanel.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="54.0" prefWidth="766.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutY="12.0" prefHeight="46.0" prefWidth="203.0" styleClass="cineback" stylesheets="@Userpanel.css" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="563.0" AnchorPane.topAnchor="12.0">
+                     <children>
+                        <Label layoutX="45.0" layoutY="12.0" prefHeight="21.0" prefWidth="113.0" text="Cine_Pro_Flix" textFill="#92fff2">
+                           <font>
+                              <Font name="Agency FB Bold" size="19.0" />
+                           </font>
+                        </Label>
+                        <FontAwesomeIconView glyphName="PLAY" layoutX="25.0" layoutY="30.371429443359375" selectionFill="#218183" size="1.3em" AnchorPane.bottomAnchor="13.399999618530273">
+                           <fill>
+                              <LinearGradient endX="1.0" endY="0.6303317535545023" startX="0.6635071090047393" startY="0.26540284360189575">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.8552631735801697" green="0.07523148506879807" blue="0.17923571169376373" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </fill>
+                        </FontAwesomeIconView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="475.0" prefWidth="194.0" styleClass="userback" stylesheets="@Userpanel.css" BorderPane.alignment="CENTER">
+               <children>
+                  <FontAwesomeIconView glyphName="USER" layoutX="62.0" layoutY="143.0" selectionFill="#2b9ab9" size="7em">
+                     <fill>
+                        <LinearGradient endX="0.8530805687203791" endY="1.0" startX="0.8530805687203791" startY="0.7488151658767773">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.0760233923792839" green="0.5058723092079163" blue="0.5131579041481018" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </FontAwesomeIconView>
+                  <Label layoutX="44.0" layoutY="172.0" text="Welcome">
+                     <textFill>
+                        <LinearGradient endX="0.7109004739336493" endY="0.9241706161137442" startX="0.6492890995260664">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.15594542026519775" green="0.5263158082962036" blue="0.48927876353263855" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.29422515630722046" green="0.8874390721321106" blue="0.9078947305679321" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <font>
+                        <Font name="Calibri Bold Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="userrealname" layoutX="51.0" layoutY="243.0" stylesheets="@Userpanel.css" text="userrealname" textFill="#fffbfb">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button graphicTextGap="5.0" layoutX="58.0" layoutY="408.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="87.0" styleClass="signoutbutton" stylesheets="@Userpanel.css" text="Sign Out" AnchorPane.bottomAnchor="29.0">
+                     <textFill>
+                        <LinearGradient endX="0.5971563981042654" endY="1.0" startX="0.5023696682464456" startY="0.6208530805687205">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.11574073880910873" green="0.493595689535141" blue="0.5" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <font>
+                        <Font name="Agency FB Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIconView fill="#269ebf" glyphName="SIGN_OUT" layoutX="42.0" layoutY="438.0" size="28" />
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="movie1" layoutX="200.0" layoutY="114.0" prefHeight="26.0" prefWidth="168.0" text="Movie-1" textFill="#f2e4e4" />
+                  <Label fx:id="movie2" layoutX="200.0" layoutY="155.0" prefHeight="29.0" prefWidth="170.0" text="Movie-2" textFill="#f2e4e4" />
+                  <Label fx:id="movie3" layoutX="200.0" layoutY="194.0" prefHeight="27.0" prefWidth="166.0" text="Movie-3" textFill="#f2e4e4" />
+                  <Label fx:id="movie4" layoutX="200.0" layoutY="231.0" prefHeight="29.0" prefWidth="168.0" text="Movie-4" textFill="#f2e4e4" />
+                  <Label fx:id="movie5" layoutX="200.0" layoutY="266.0" prefHeight="35.0" prefWidth="164.0" text="Movie-5" textFill="#f2e4e4" />
+                  <Label fx:id="movie6" layoutX="200.0" layoutY="307.0" prefHeight="31.0" prefWidth="167.0" text="Movie-6" textFill="#f2e4e4" />
+                  <Button fx:id="button1" layoutX="386.0" layoutY="112.0" mnemonicParsing="false" styleClass="btn1" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button2" layoutX="387.0" layoutY="154.0" mnemonicParsing="false" styleClass="btn2" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="#fffdfd">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button3" layoutX="387.0" layoutY="192.0" mnemonicParsing="false" styleClass="btn3" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="#fff8f8">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button4" layoutX="388.0" layoutY="230.0" mnemonicParsing="false" styleClass="btn4" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="#fffbfb">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button5" layoutX="389.0" layoutY="266.0" mnemonicParsing="false" styleClass="btn5" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button6" layoutX="390.0" layoutY="305.0" mnemonicParsing="false" styleClass="btn6" stylesheets="@Userpanel.css" text="Buy Ticket" textFill="#fffefe">
+                     <font>
+                        <Font name="Agency FB" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
